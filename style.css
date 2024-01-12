@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: inline-block; ;
+    margin: 0;
+}
+div {
+    display: block;
+}
+
+.nav {
+    max-width: 100vw;
+    background: linear-gradient();
+    padding: 2%;
+    background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) );
+}
+
+.navSub{
+    display: inline-block;
+    margin-inline: 5%;
+    cursor: pointer !important;;
+    color: white;
+}
+.Active {
+    background-color: white;
+    color: black;
+    
+}
+.Main1 {
+    background-image:url(https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 650px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main2 {
+    height: 500px;
+    width: 100%;
+}
+
+.Main2 > img {
+    margin: 2%;
+    width: 29%;
+    height: 90%;
+}
+
+.Main3{
+    padding: 2%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.Main3-sub1 {
+    width: 45%;
+    display: inline-block;
+    color: white ;
+}
+.Main3-sub2 {
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+}
